@@ -1,1 +1,158 @@
-/* Add CSS styling here */
+/* reset css */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 62.5%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* every element is a border-box */
+* {
+    box-sizing: border-box;
+    background-color: #EEF6FA;
+}
+body{
+    width: 80%;
+    padding: 0 auto;
+}
+h1{
+    text-align: center;
+    height: 10rem;
+    font-family: 'Merienda One', cursive;;
+    font-size: 4rem;
+    padding-top: 0.5%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 20rem;
+    height: 5rem;
+    align-items: baseline;
+    text-decoration: none;
+    text-align: center;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+#home{
+    background-color: #D7EAF4;
+    text-align: center;
+    height: 4rem;
+    width: 5rem;
+    padding-top: 24%;
+    border-radius: 15%;
+    font-family: 'Source Code Pro', monospace;
+} 
+
+#projects{
+
+    text-align: center;
+    height: 4rem;
+    width: 7rem;
+    padding-top: 24%;
+    border-radius: 15%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#about{
+
+    text-align: center;
+    height: 4rem;
+    width: 5rem;
+    padding-top: 24%;
+    border-radius: 15%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#contact{
+
+    text-align: center;
+    height: 4rem;
+    width: 6rem;
+    padding-top: 24%;
+    border-radius: 15%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#projects:hover{
+    background-color: #D7EAF4;
+}
+
+#contact:hover{
+    background-color: #D7EAF4;
+}
+#about:hover{
+    background-color: #D7EAF4;
+}
+contact:hover{
+    background-color: #D7EAF4;
+}
+
+
+
+#intro{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 auto;
+    padding-left: 20rem;
+}
+
+img{
+    height: 35rem;
+    border-radius: 5%;    
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 80%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+#main_text{
+    padding: 4%;
+    text-align: justify;
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+i{
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+a {
+    color: black;
+}
